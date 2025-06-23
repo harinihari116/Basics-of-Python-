@@ -1,0 +1,12 @@
+# Driving License Eligibility Program
+
+Age = int(input("Enter your Age: "))
+Wear_helmet = input("Are you wearing a helmet? (yes or no): ").lower()
+
+if Age >= 18:
+    if Wear_helmet == "yes":
+        print("You are eligible for a driving license.")
+    else:
+        print("You must wear a helmet to be eligible for a driving license.")
+else:
+    print("You are not eligible for a driving license (minimum age is 18).")

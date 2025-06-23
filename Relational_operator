@@ -1,0 +1,14 @@
+#Relational_operator
+def relational_operator():
+    a = int(input("Enter a number A: "))
+    b = int(input("Enter a number B: "))
+
+    print("A > B:", a > b)
+    print("A < B:", a < b)
+    print("A >= B:", a >= b)
+    print("A <= B:", a <= b)
+    print("A == B:", a == b)
+    print("A != B:", a != b)
+
+# Call the function
+relational_operator()

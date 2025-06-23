@@ -1,0 +1,13 @@
+#Arithmetic_operator
+def arithmetic_operation():
+    a = int(input("Enter a number A: "))
+    b = int(input("Enter a number B: "))
+
+    print("A greater than B:", a > b)
+    print("A less than B:", a < b)
+    print("A greater than or equal to B:", a >= b)
+    print("A less than or equal to B:", a <= b)
+    print("A equal to B:", a == b)
+
+# Call the function
+arithmetic_operation()

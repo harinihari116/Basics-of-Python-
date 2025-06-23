@@ -1,0 +1,20 @@
+# if Statement
+num1 = 10
+if num1 <= 10:
+    print("The number is less than or equal to 10")
+
+# if-else Statement
+num2 = 50
+if num2 > 10:
+    print("It is Positive number")
+else:
+    print("It is Negative number")
+
+# elif Statement
+num3 = 20
+if num3 < 50:
+    print("2 digit number")
+elif num3 > 100:
+    print("3 digit number")
+else:
+    print("It is a single digit number")

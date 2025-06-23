@@ -1,0 +1,6 @@
+# Example 1: Even and Odd numbers
+for h in range(990, 999):
+    if h % 2 == 0:
+        print("The Even number is", h)
+    else:
+        print("The Odd number is", h)

@@ -1,0 +1,14 @@
+# Single Inheritance Example
+
+class Teddy:
+    def acting(self):
+        print("Teddy is acting")
+
+class Shinchan(Teddy):
+    def laughing(self):
+        print("Shinchan is laughing")
+
+# Creating object of subclass
+cartoon = Shinchan()
+cartoon.acting()
+cartoon.laughing()

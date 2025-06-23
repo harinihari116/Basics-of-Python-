@@ -1,0 +1,17 @@
+# Multiple Inheritance
+class Teddy:
+    def acting(self):
+        print("Teddy is acting")
+
+class Shinchan:
+    def laughing(self):
+        print("Shinchan is laughing")
+
+class Barbie(Teddy, Shinchan):  # Barbie inherits from both Teddy and Shinchan
+    def dancing(self):
+        print("Barbie is dancing")
+
+cartoon = Barbie()
+cartoon.acting()
+cartoon.laughing()
+cartoon.dancing()

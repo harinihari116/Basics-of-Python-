@@ -1,0 +1,24 @@
+class Laptop:
+
+    def __init__(self, brand, price, processor, ram):
+        self.brand = brand
+        self.price = price
+        self.processor = processor
+        self.ram = ram
+
+    def display(self):
+        print(f"Laptop Brand: {self.brand}")
+        print(f"Price: ₹{self.price}")
+        print(f"Processor: {self.processor}")
+        print(f"RAM: {self.ram} GB")
+        print("    ........     ")
+
+# Creating laptop objects
+hp_laptop = Laptop("HP", 75000, "Intel i5", 16)
+lenovo_laptop = Laptop("Lenovo", 150000, "AMD Ryzen", 16)
+asus_laptop = Laptop("Asus", 68000, "Intel i3", 8)
+
+# Display laptop details
+hp_laptop.display()
+lenovo_laptop.display()
+asus_laptop.display()

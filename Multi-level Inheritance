@@ -1,0 +1,27 @@
+# Multi-level Inheritance Example
+
+class Harini:
+    def watching_tv(self):
+        print("Shinchan")
+
+class Masaw(Harini):
+    def playing_football(self):
+        print("Bola kampung")
+
+class Neni(Harini):
+    pass
+
+class Boo(Masaw):  # Multi-level: Boo -> Masaw -> Harini
+    pass
+
+class Kazama(Harini):
+    pass
+
+# Create Kazama object and call inherited method
+kazama = Kazama()
+kazama.watching_tv()
+
+# Create Boo object and call inherited methods
+boo = Boo()
+boo.playing_football()
+boo.watching_tv()

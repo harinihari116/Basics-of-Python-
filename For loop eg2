@@ -1,0 +1,3 @@
+# for loop example 2: Multiplication table of 20
+for h in range(1, 11):
+    print("20 x", h, "=", 20 * h)

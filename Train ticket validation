@@ -1,0 +1,22 @@
+def print_range():
+    s_username = "Harini"
+    s_phoneno = 8687076170
+
+    username = input("Enter your username: ")
+    phoneno = int(input("Enter your phone number: "))
+
+    def validate():
+        if s_username == username and s_phoneno == phoneno:
+            h = 3500  # fixed ticket amount
+            print("Enter your payable amount:", h)
+            print("You are eligible for traveling in train.")
+            print("Your payable amount is accepted for train ticket.")
+            print("You are going to Mylapore. HAPPY JOURNEY!!!")
+        else:
+            print("You are not eligible for train traveling.")
+            print("Please check your given information...")
+
+    validate()
+
+# Call the function
+print_range()

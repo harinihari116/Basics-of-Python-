@@ -1,0 +1,26 @@
+# Hybrid Inheritance Example
+
+class Bird:
+    def fly(self):
+        print("Flying")
+
+class Parrot(Bird):  # Inherit from Bird to allow access to fly()
+    def play(self):
+        print("Playing")
+
+class Eagle(Bird):
+    def catch_snake(self):
+        print("Catching snake")
+
+class Crow(Parrot, Eagle):  # Multiple Inheritance (Hybrid)
+    def sight(self):
+        print("Sighting")
+
+# Create Crow object
+crow = Crow()
+
+# Accessing all inherited methods
+crow.fly()
+crow.play()
+crow.catch_snake()
+crow.sight()

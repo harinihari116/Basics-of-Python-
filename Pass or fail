@@ -1,0 +1,12 @@
+# Find Pass or Fail using function
+
+def findpassorfail(h):
+    if h <= 35:
+        print("You are failed in exam, try again...")
+    else:
+        print("You are passed in exam")
+
+# Get marks from user
+mark = int(input("Enter your mark: "))
+
+findpassorfail(mark)

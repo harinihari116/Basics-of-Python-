@@ -1,0 +1,17 @@
+class Student:
+    def __init__(self, name, reg_no):
+        self.name = name
+        self.reg_no = reg_no
+
+    def display(self):
+        print(f"Student Name: {self.name}")
+        print(f"Register Number: {self.reg_no}")
+        print("-------------------------")
+
+# Creating student objects
+student1 = Student("Harini.K", 212303520)
+student2 = Student("Hemalatha.K", 212303521)
+
+# Display student details
+student1.display()
+student2.display()

@@ -1,0 +1,14 @@
+#Sum_operations
+def sum_operations():
+    a = int(input("Enter a number A: "))
+    b = int(input("Enter a number B: "))
+
+    print("Add Result:", a + b)
+    print("Sub Result:", a - b)
+    print("Multiply Result:", a * b)
+    print("Divide Result:", a / b)
+    print("Floor Division:", a // b)
+    print("Exponential:", a ** b)
+
+# Call the function
+sum_operations()

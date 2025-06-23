@@ -1,0 +1,10 @@
+# Find Odd or Even using function
+
+def findevenorodd(h):
+    if h % 2 == 0:
+        print(h, ": it is an even number")
+    else:
+        print(h, ": it is an odd number")
+
+num = 27
+findevenorodd(num)

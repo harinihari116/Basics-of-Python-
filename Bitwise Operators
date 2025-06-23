@@ -1,0 +1,13 @@
+#Bitwise Operators
+def bitwise_operations():
+    a = int(input("Enter a number A: "))
+    b = int(input("Enter a number B: "))
+
+    print("A AND B:", a & b)
+    print("A OR B:", a | b)
+    print("A XOR B:", a ^ b)
+    print("A Left shift by 1:", a << 1)
+    print("B Right shift by 1:", b >> 1)
+
+# Call the function
+bitwise_operations()

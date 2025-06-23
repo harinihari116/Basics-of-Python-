@@ -1,0 +1,22 @@
+# Hierarchical Inheritance Example
+
+class Teddy:
+    def acting(self):
+        print("Teddy is acting")
+
+class Shinchan(Teddy):
+    def laughing(self):
+        print("Shinchan is laughing")
+
+class Barbie(Teddy):
+    def dancing(self):
+        print("Barbie is dancing")
+
+# Creating objects
+cartoon1 = Shinchan()
+cartoon1.acting()
+cartoon1.laughing()
+
+cartoon2 = Barbie()
+cartoon2.acting()
+cartoon2.dancing()
